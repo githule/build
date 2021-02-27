@@ -635,7 +635,7 @@ main()
 		dest_root=$emmccheck'p1'
 	else
 		ichip='NAND'
-		dest_boot='/nand1'
+		dest_boot='/dev/nand1'
 		dest_root='/dev/nand2'
 	fi
 
